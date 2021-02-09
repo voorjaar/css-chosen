@@ -1,2 +1,2 @@
-export { Property, InlineAtRule, Style, GlobalStyle } from "./base";
+export { Property, InlineAtRule, Style } from "./base";
 export { StyleSheet } from "./sheet";

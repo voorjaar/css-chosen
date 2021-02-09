@@ -507,13 +507,3 @@ export class Style {
     return minify ? result.replace(/;}/g, "}") : result;
   }
 }
-
-export class GlobalStyle extends Style {
-  constructor(
-    selector?: string,
-    property?: Property | Property[],
-    important?: boolean
-  ) {
-    super(selector, property, important);
-  }
-}
