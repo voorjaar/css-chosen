@@ -8,9 +8,9 @@ Dead simple CSS purge tool.
 npm install css-chosen --save-dev
 ```
 
-## How it works
+## How
 
-The project was inspired by [uncss](https://github.com/uncss/uncss), we all tend to use dom's `querySelector` method. But we use [css-select](https://github.com/fb55/css-select) to select css rules, which allows us to remove the dependency of [jsdom](https://github.com/jsdom/jsdom), so it will be smaller and faster. 
+The project was inspired by [uncss](https://github.com/uncss/uncss), we both tend to use dom's `querySelector` method. But we use [css-select](https://github.com/fb55/css-select) to select css rules, which allows us to remove the dependency of [jsdom](https://github.com/jsdom/jsdom), so it will be smaller and faster. 
 
 The process by which **css-chosen** removes the unused rules is as follows:
 
